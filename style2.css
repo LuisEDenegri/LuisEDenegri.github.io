@@ -117,4 +117,19 @@ fieldset:hover{
 .buttons a:hover {
 	transform: scale(1.2);
 }
+@media screen and (max-width: 600px) {
+	div{
+		width: 85%;
+		font: menu;
+	}
+	.menu {
+		font-size: 6px;
+		width: 100%;
+	}
+	.buttons {
+		justify-content: unset;
+		display: block;
+		margin-left: 50px;
+	}
 
+}
