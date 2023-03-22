@@ -79,3 +79,16 @@ body{
         color: white;
         text-decoration: underline;
 }
+@media screen and (max-width: 600px) {
+	body{
+		width: 85%;
+	}
+    .registro{
+        width: 107%;
+        margin-left: 5%;
+    }
+    p {
+        padding: 0%;
+        margin-bottom: 10%;
+    }
+}
